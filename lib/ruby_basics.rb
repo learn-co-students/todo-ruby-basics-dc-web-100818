@@ -1,28 +1,27 @@
 def division(num1, num2)
-  30 / 5
+  num1/num2
 end
 
 def assign_variable(name)
-  puts = "#{name}"
+  name
 end
 
-def argue(ha)
-  "I'm right and you are wrong!"
-
+def argue(argue)
+   argue
 end
 
-def greeting(greeting, name)
-   puts = "#{greeting} #{name}"
+def greeting(one, two)
+  "#{one}#{two}"
 end
 
 def return_a_value
- "Nice"
+  "Nice"
 end
 
 def last_evaluated_value
- "expert"
+  "expert"
 end
 
-def pizza_party(topping= "cheese")
-  puts = "#{topping}"
+def pizza_party(argument="cheese")
+  argument
 end
